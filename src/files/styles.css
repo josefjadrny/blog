@@ -999,9 +999,7 @@ a:hover {
     margin-top: 5rem;
     font-weight: 500;
     text-transform: none;
-    display: flex;
     align-items: center;
-    justify-content: center;
     color: #FFFFFF;
     text-align: center;
 }
@@ -1156,16 +1154,7 @@ a:hover {
     animation: shake 1s cubic-bezier(.36, .07, .19, .97) both;
     animation-delay: 3s;
     display: flex;
-    align-self: center;
-    z-index: 100;
-    bottom: 0;
-    position: absolute;
-    text-align: center;
-    margin-bottom: 4em;
-    font-family: "SourceCodePro-Regular", sans-serif;
-    font-weight: 600;
-    z-index: 100;
-    width: 100%;
+    margin-top: 2em;
     justify-content: center
 }
 
