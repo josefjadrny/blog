@@ -734,7 +734,7 @@ a:hover {
     margin-top: 3em
 }
 
-.request-button.light {
+.action-button {
     background-color: darkred;
     padding: 0.5em 1em;
     border-radius: 10px;
@@ -746,28 +746,12 @@ a:hover {
     transform: scale(1)
 }
 
-.request-button.dark {
-    background-color: #1d3352;
-    padding: 0.5em 1em;
-    border-radius: 10px;
-    color: #fff;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-    transform: scale(1)
-}
-
-.request-button:hover {
+.action-button:hover {
     transform: scale(0.95);
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease
-}
-
-.request-button.right {
-    float: right
 }
 
 .job-company {
@@ -991,7 +975,8 @@ a:hover {
 
 .title {
     font-family: "SourceCodePro-Bold", sans-serif;
-    font-weight: 900
+    font-weight: 900;
+    margin-top: -30px;
 }
 
 .tagline {
@@ -1005,7 +990,8 @@ a:hover {
 }
 
 .social-container {
-    height: 130px
+    margin-top: 10px;
+    height: 110px
 }
 
 .social-icon {
@@ -1144,10 +1130,6 @@ a:hover {
     max-height: 98%;
     pointer-events: none;
     opacity: 1
-}
-
-.action-button {
-    color: darkred
 }
 
 .button-container {
