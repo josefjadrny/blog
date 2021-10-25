@@ -734,7 +734,7 @@ a:hover {
 }
 
 .action-button {
-    background-color: darkred;
+    background-color: #cc0000;
     padding: 0.5em 1em;
     border-radius: 10px;
     color: #fff;
@@ -788,10 +788,10 @@ a:hover {
 }
 
 .job-date {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 600;
-    color: darkred;
-    top: 1.5em;
+    color: #cc0000;
+    top: 1em;
     position: absolute;
     right: 0;
     padding-top: 8px
@@ -1079,8 +1079,8 @@ a:hover {
     font-family: "BenchNine", sans-serif;
     text-transform: uppercase;
     text-align: left;
-    color: darkred;
-    font-size: 1.3em
+    color: #cc0000;
+    font-size: 1.4em
 }
 
 .subsection-title.dark {
@@ -1092,11 +1092,11 @@ a:hover {
 }
 
 .subsection-title.experience {
-    color: darkred
+    color: #cc0000
 }
 
 .subsection-title.education {
-    color: darkred
+    color: #cc0000
 }
 
 .title-text.outline {
@@ -1214,12 +1214,12 @@ a:hover {
 
     .job-date {
         padding-top: 0.5em;
-        font-size: 0.75em
+        font-size: 1em
     }
 }
 
 .heart {
-    color: darkred
+    color: #cc0000
 }
 
 /*!
@@ -4509,10 +4509,10 @@ a:hover {
    animation: blink 500ms linear infinite alternate;
  }
 .var-highlight{
-  color: red;
+  color: darkred;
 }
 .string-highlight{
-  color: darkred;
+  color: #cc0000;
 }
 
 
