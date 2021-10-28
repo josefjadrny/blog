@@ -708,7 +708,7 @@ a:hover {
     height: 100vh;
     max-height: 1200px;
     min-height: 600px;
-    width: 100vw;
+    width: 100%;
     background-color: #222222;
     position: relative;
     overflow: hidden;
@@ -820,7 +820,7 @@ a:hover {
 }
 
 .about-section {
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     position: relative;
     padding: 7em 0 5em 0;
@@ -833,119 +833,17 @@ a:hover {
 }
 
 .contact-section {
-    width: 100vw;
+    width: 100%;
     background-color: #fff;
     position: relative;
     padding: 7em 0 7em 0
-}
-
-#skills-row-1 {
-    background-color: orange;
-    position: relative
-}
-
-#skills-row-2 {
-    background-color: green
-}
-
-#skills-row-3 {
-    background-color: yellow
 }
 
 .experience-section {
-    width: 100vw;
+    width: 100%;
     background-color: #222222;
     position: relative;
     padding: 7em 0 7em 0
-}
-
-.skills-subsection {
-    position: relative;
-    margin-top: 80px;
-    overflow: hidden
-}
-
-.skills-row-container {
-    white-space: nowrap;
-    position: relative
-}
-
-.skills-row {
-    padding: 7px;
-    position: relative;
-    white-space: nowrap;
-    display: inline-block
-}
-
-.skills-row.offset {
-    margin-left: -75px
-}
-
-.education-section {
-    width: 100vw;
-    background-color: #222222;
-    position: relative;
-    padding: 7em 0 7em 0;
-    margin-top: -1px;
-    z-index: 12
-}
-
-.skills-section {
-    width: 100vw;
-    background-color: #fff;
-    position: relative;
-    padding: 7em 0 7em 0;
-    z-index: 12
-}
-
-.skill-circle {
-    opacity: 0.5;
-    height: 125px;
-    width: 125px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    background-color: black;
-    display: inline-block;
-    margin-right: 25px;
-    transition: all 0.2s ease-in-out
-}
-
-.skill-circle:hover {
-    transform: scale(1.1);
-    opacity: 1
-}
-
-.skill-image {
-    padding: 30px
-}
-
-.skill-circle.yellow {
-    background-color: #ffc800
-}
-
-.skill-circle.green {
-    background-color: #3ad95b
-}
-
-.skill-circle.blue {
-    background-color: #278bd2
-}
-
-.skill-circle.pink {
-    background-color: #ff2b91
-}
-
-.skill-circle.teal {
-    background-color: #35dbdc
-}
-
-.skill-circle.purple {
-    background-color: #523ca5
-}
-
-.skill-circle.black {
-    background-color: #000000
 }
 
 .dividing-image {
