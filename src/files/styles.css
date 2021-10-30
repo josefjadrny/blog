@@ -489,38 +489,6 @@ footer {
     margin-bottom: 2rem
 }
 
-.masthead {
-    background-color: #FCED9D
-}
-
-.masthead.transparent {
-    background-color: #FCED9D;
-    opacity: 0.8
-}
-
-.masthead-logo {
-    width: 50px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    display: inline-block
-}
-
-.masthead-title {
-    margin-top: 0;
-    margin-bottom: 0;
-    color: #515151
-}
-
-.masthead-title a {
-    color: inherit
-}
-
-.masthead-title small {
-    font-size: 75%;
-    font-weight: 400;
-    opacity: .5
-}
-
 .page, .post {
     margin-bottom: 4em
 }
@@ -686,7 +654,7 @@ a:hover {
 .job-subsection:hover > .extended-details {
     margin-top: 30px;
     max-height: 600px;
-    opacity: 0.7;
+    opacity: 0.8;
     -webkit-transition: max-height 1s ease;
     -moz-transition: max-height 1s ease;
     -o-transition: max-height 1s ease;
@@ -927,46 +895,6 @@ a:hover {
     padding: 0.1em 0 0.75em 0;
     font-weight: 900;
     font-style: italic
-}
-
-.spice-circle {
-    position: absolute;
-    opacity: 0.025;
-    z-index: 1
-}
-
-.spice-circle.left {
-    top: 0;
-    margin-top: -100px
-}
-
-.spice-circle.right {
-    right: 0;
-    bottom: 0;
-    width: 20em;
-    margin-bottom: -12em;
-    top: inherit;
-    margin-right: 5em
-}
-
-.spice-circle.central {
-    left: 0;
-    bottom: 0;
-    width: 22em;
-    margin-left: 5em;
-    margin-bottom: -6em;
-    top: inherit;
-    margin-right: 5em;
-    opacity: 0.04
-}
-
-.spice-circle.central-top {
-    right: 0;
-    top: 0;
-    width: 14em;
-    margin-right: 15em;
-    margin-top: -4em;
-    opacity: 0.04
 }
 
 .section-title.light {
