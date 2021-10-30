@@ -22,6 +22,9 @@ $(document).ready(function(){
         } // End if
     });
 
+    // Age up-to date
+    $("#age").text(((new Date() - new Date('1988-01-22T00:00:00'))/1000/3600/24/365.33).toFixed(2));
+
     function setupTypewriter(t) {
         var HTML = t.innerHTML;
 
@@ -99,5 +102,6 @@ $(document).ready(function(){
             typerShown = true;
             typewriter.type();
         }
-    });
+    })
+
 });
