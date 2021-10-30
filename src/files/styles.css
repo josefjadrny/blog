@@ -240,7 +240,7 @@ a[href^="#fn:"], a[href^="#fnref:"] {
 }
 
 .highlight .go {
-    color: #aaa
+    color: #bbb
 }
 
 .highlight .gp {
@@ -735,7 +735,7 @@ a:hover {
 
 .job-position {
     font-weight: 600;
-    color: #aaa;
+    color: #bbb;
     font-size: 0.85em;
     padding-top: 0.5em
 }
