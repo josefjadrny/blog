@@ -755,6 +755,16 @@ a:hover {
     color: #325383
 }
 
+.job-position:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #aaa;
+    content: "";
+    position: absolute;
+    margin: 5px;
+    right: 0px;
+}
+
 .job-date {
     font-size: 1em;
     font-weight: 600;
