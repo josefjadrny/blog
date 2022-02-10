@@ -24,6 +24,8 @@ $(document).ready(function(){
 
     // Age up-to date
     $("#age").text(((new Date() - new Date('1988-01-22T00:00:00'))/1000/3600/24/365.33).toFixed(2));
+    // Experience up-to date
+    $("#exp").text(((new Date() - new Date('2012-05-01T00:00:00'))/1000/3600/24/365.33).toFixed(1));
 
     function setupTypewriter(t) {
         var HTML = t.innerHTML;
