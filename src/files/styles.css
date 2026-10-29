@@ -519,7 +519,7 @@ ul, ol {
 
 .stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;
     margin-top: 2rem;
 }
@@ -533,7 +533,8 @@ ul, ol {
 
 .stats strong {
     display: block;
-    font-size: clamp(1.6rem, 3vw, 2.2rem);
+    white-space: nowrap;
+    font-size: clamp(1.5rem, 2.6vw, 2rem);
     font-weight: 800;
     line-height: 1.1;
     background: var(--gradient);
@@ -543,6 +544,7 @@ ul, ol {
 }
 
 .stats span {
+    display: block;
     font-size: 0.85rem;
     color: var(--muted);
     line-height: 1.3;
