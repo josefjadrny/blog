@@ -96,14 +96,18 @@ $(document).ready(function(){
     var typerShown = false;
     typewriter = setupTypewriter(typewriter);
 
-    window.addEventListener('scroll', function() {
+    function startTypewriterWhenVisible() {
         var position = typer.getBoundingClientRect();
 
-        // checking whether fully visible
-        if(position.top >= 0 && position.bottom <= window.innerHeight && !typerShown) {
+        // start once its top is in view - "fully visible" never happens when it is taller than the screen
+        if(position.top < window.innerHeight * 0.8 && position.bottom > 0 && !typerShown) {
             typerShown = true;
             typewriter.type();
         }
-    })
+    }
+
+    window.addEventListener('scroll', startTypewriterWhenVisible);
+    // also on load, for a visitor who lands on #about without scrolling
+    startTypewriterWhenVisible();
 
 });
