@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josef Jadrny · Senior Software Engineer</title>
+    <meta name="description" content="Josef Jadrny - Senior full-stack software engineer from Prague. 14 years of TypeScript, Node.js, React and AWS, author of js-chess-engine and opinio.live.">
+    <link rel="canonical" href="https://www.josefjadrny.info/">
+    <meta name="theme-color" content="#0b0d12">
+
     <meta property="og:type" content="profile">
     <meta property="og:url" content="https://www.josefjadrny.info/">
-    <meta property="og:title" content="Josef Jadrny · Software Developer">
+    <meta property="og:title" content="Josef Jadrny · Senior Software Engineer">
+    <meta property="og:description" content="Senior full-stack software engineer from Prague. TypeScript, Node.js, React, AWS - and a love for simple code.">
+    <meta property="og:image" content="https://www.josefjadrny.info/files/me.jpg">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Josef Jadrny · Software Developer">
-    <meta property="og:description" content="Get to know more about Josef Jadrny, Full-Stack Software Developer from Prague interested in JavaScript, TypeScript, Node.js, React and more">
-    <meta property="og:image" content="https://www.josefjadrny.info/files/me.jpg"/>
-    <meta name="description" content="Get to know more about Josef Jadrny, Full-Stack Software Developer from Prague interested in JavaScript, TypeScript, Node.js, React and more" />
-    <link rel="canonical" href="https://www.josefjadrny.info/">
-    <title>Josef Jadrny · Software Developer</title>
-    <link href="https://fonts.googleapis.com/css?family=BenchNine:700" rel="stylesheet">
-    <link rel="stylesheet" href="files/styles.css">
-    <link rel="shortcut icon" href="files/favicon.ico">
-    <script src="files/jquery-3.3.1.min.js"></script>
-    <script src="files/scripts.js"></script>
+    <meta name="twitter:title" content="Josef Jadrny · Senior Software Engineer">
+
+    <link rel="icon" href="files/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="files/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="files/styles.css?v=5">
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="files/scripts.js?v=5" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Josef Jadrny",
+        "jobTitle": "Senior Software Engineer",
+        "url": "https://www.josefjadrny.info/",
+        "image": "https://www.josefjadrny.info/files/me.jpg",
+        "address": { "@type": "PostalAddress", "addressLocality": "Prague", "addressCountry": "CZ" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Pardubice" },
+        "knowsAbout": ["TypeScript", "JavaScript", "Node.js", "React", "AWS", "Kubernetes", "GraphQL", "PostgreSQL"],
+        "sameAs": ["https://www.linkedin.com/in/josefjadrny", "https://github.com/josefjadrny"]
+    }
+    </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-8VY8VNYR99"></script>
     <script>
@@ -30,171 +52,322 @@
 </head>
 
 <body>
-<div>
-    <div class="home-background">
-        <main>
-            <div id="home" class="home-section">
-                <div class="title">
-                    <div class="title-text outline first animated fadeInUp">
-                        “I <span class="heart">❤</span></div>
-                    <div class="title-text outline second animated fadeInUp">
-                        Simple
-                    </div>
-                    <div class="title-text outline third animated fadeInUp">
-                        Code”
-                    </div>
-                    <div class="tagline">Josef Jadrny,<br/>Software Developer<div class="button-container">
-                        <a class="action-button" href="#about">Get to know me ▼</a>
-                    </div></div>
-                </div>
-            </div>
-            <div id="about" class="about-section">
-                <div class="container about-container">
-                    <div class="profile-image-container">
-                        <img class="profile-image" src="files/me.jpg" alt="Avatar">
-                    </div>
-                    <div>
-                        <div class="subsection-title">A simple code</div>
-                        <div class="section-title">About Me</div>
-                        <div class="text typewriter">
-<pre id="typewriter">
-<span class="var-highlight">const</span> info = {
-    name: <span class="string-highlight">'Josef Jadrny'</span>,
-    age: <span class="string-highlight" id="age">38</span>,
-    location: <span class="string-highlight">'Prague, Czechia'</span>,
-    motto: <span class="string-highlight">'I ❤ simple code'</span>,
-    experienceInYears: <span class="string-highlight" id="exp">14</span>,
-    interests:[
-        <span class="string-highlight">'Vibe Coding'</span>,
-        <span class="string-highlight">'AI'</span>,
-        <span class="string-highlight">'TypeScript'</span>,
-        <span class="string-highlight">'Node.js'</span>,
-        <span class="string-highlight">'React'</span>,
-        <span class="string-highlight">'Clean Code'</span>,
-        <span class="string-highlight">'Agile'</span>,
-        <span class="string-highlight">'Devops'</span>,
-        <span class="string-highlight">'AWS'</span>,
-    ],
-    projects:[
-        <a class="string-highlight" href="https://opinio.live" target="_blank">'https://opinio.live'</a>,
-        <a class="string-highlight" href="http://chess.josefjadrny.info/" target="_blank">'http://chess.josefjadrny.info/'</a>,
-        <a class="string-highlight" href="http://chess-fe.josefjadrny.info/" target="_blank">'http://chess-fe.josefjadrny.info/'</a>,
-    ],
-}; </pre>
+<a class="skip-link" href="#about">Skip to content</a>
 
-                        </div>
-                        <div class="subsection-title">Get to know more</div>
-                        <div class="social-container">
-                            <div class="social tooltip" data-title="My LinkedIn profile"><a href="https://www.linkedin.com/in/josefjadrny"><img
-                                    class="social-icon" alt="My LinkedIn profile" src="files/linkedin.png"></a></div>
-                            <div class="social tooltip" data-title="My GitHub account"><a href="https://github.com/josefjadrny"><img class="social-icon"
-                                                                                              alt="My GitHub account" src="files/github.jpg"></a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </main>
+<header class="nav" id="nav">
+    <div class="container nav-inner">
+        <a class="nav-logo" href="#home" aria-label="Josef Jadrny - back to top">JJ<span>.</span></a>
+        <nav aria-label="Main">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+        <a class="btn btn-small" href="#contact">Contact</a>
     </div>
-    <div id="experience" class="experience-section">
-        <div class="container">
-            <div class="subsection-title experience">The companies I've worked at.</div>
-            <div class="section-title light">Experience</div>
-            <div id="job-subsection" class="job-subsection">
-                <div class="job-company">Pipedrive</div>
-                <div class="job-position">Senior Software Engineer</div>
-                <div class="job-date">May 2021 - Present</div>
-                <div class="extended-details">
-                    <p><a href="https://www.pipedrive.com/" target="_blank">Pipedrive</a> is one of the best user-rated CRM tools, with a focus on small and mid-size companies.
-                    As they use the <a href="https://medium.com/pipedrive-engineering/scaling-pipedrive-engineering-from-teams-to-tribes-8f14fd92df8c">tribes & missions framework</a>, I joined Prague's tribe (instead of a team).
-                    </p>
-                    <p>
-                        As a full-stack JavaScript software developer, I work with Node.js and TypeScript on the backend and with React on the frontend.
-                        I am also part of the on-call team, which takes care of microservices running in production.
-                    </p>
-                    <p>Other technologies I would like to mention related to my job at Pipedrive are Kubernetes and AI tools like Claude.
-                    </p>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="kicker reveal">Hi, I'm</p>
+                <h1 class="hero-name reveal">Josef Jadrny</h1>
+                <p class="hero-role reveal"><span class="nw">Senior Software Engineer</span><span class="nw">full-stack TypeScript</span></p>
+                <p class="hero-lead reveal">
+                    I build web products end to end - Node.js and TypeScript on the backend, React on the frontend,
+                    and the AWS infrastructure underneath. <span class="years-total">14</span> years in, based in Prague.
+                </p>
+                <div class="hero-actions reveal">
+                    <a class="btn btn-primary" href="mailto:bc.josefjadrny@gmail.com">
+                        Email me
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a class="btn btn-ghost" href="https://www.linkedin.com/in/josefjadrny" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a class="btn btn-ghost" href="https://github.com/josefjadrny" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.4c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+                        GitHub
+                    </a>
                 </div>
             </div>
-            <div class="job-subsection">
-                <div class="job-company">Nangu.TV</div>
-                <div class="job-position">GraphQL Software Developer</div>
-                <div class="job-date">Feb 2020 - May 2021</div>
-                <div class="extended-details">
-                    <p><a href="https://nangu.tv/" target="_blank">Nangu.tv</a>'s IPTV/OTT solution has more than 1 million users in Central Europe - it is used by major operators like <a href="https://www.o2.cz/" target="_blank">O2</a> and <a href="https://www.orange.com/" target="_blank">Orange</a>.
-                    </p>
-                    <p>As part of the GraphQL team, I worked with Node.js and Apollo, and I was responsible for developing and maintaining a unified JavaScript SDK written in React/React Native for our clients' frontends.</p>
+
+            <div class="hero-visual reveal">
+                <div class="photo-ring">
+                    <img class="photo" src="files/me.jpg" alt="Josef Jadrny" width="200" height="200">
                 </div>
-            </div>
-            <div class="job-subsection">
-                <div class="job-company">Economia</div>
-                <div class="job-position">Head of Development<br/>Software Developer Lead</div>
-                <div class="job-date">Oct 2015 - Feb 2020</div>
-                <div class="extended-details">
-                    <p>
-                        My first job in Prague was at <a href="https://www.economia.cz/en/" target="_blank">Economia</a>, one of the biggest Czech media houses, with brands like <a href="https://www.aktualne.cz/" target="_blank">aktualne.cz</a>, <a href="https://www.dvtv.cz/" target="_blank">DVTV</a>, <a href="https://hn.cz/" target="_blank">Hospodářské noviny</a>, and <a href="https://www.respekt.cz/" target="_blank">RESPEKT</a>...
-                    </p>
-                    <p>
-                        We decided to replace PHP with Node.js & React, move from on-premise to the cloud (AWS), and adopt DevOps. As a team leader, I drove those changes while coding and mentoring others.
-                        It took almost a year to accomplish at <a href="https://www.centrum.cz/" target="_blank">centrum.cz</a>, and I gave a <a href="https://youtu.be/GbPSEhqmjd4?t=15062" target="_blank">talk</a> about it at <a href="https://reactiveconf.com/" target="_blank">ReactiveConf</a> 2019.
-                    </p>
-                    <p>
-                        Finally, after a few years, I moved into the Head of Development role to help roll out these changes company-wide.
-                    </p>
-                </div>
-            </div>
-            <div class="job-subsection">
-                <div class="job-company">AtNat</div>
-                <div class="job-position">Software Developer</div>
-                <div class="job-date">Mar 2015 - Sep 2015</div>
-                <div class="extended-details">
-                    <p>
-                        AtNat was an ambitious startup. Back then, it was challenging to create an isomorphic JavaScript web application. It was my first encounter with Node.js and Angular.
-                    </p>
-                    <p>
-                        I left after several months because I realized that startup culture does not suit me.
-                    </p>
-                </div>
-            </div>
-            <div class="job-subsection">
-                <div class="job-company">Digital Solutions</div>
-                <div class="job-position">Software Developer</div>
-                <div class="job-date">Apr 2013 - Mar 2015</div>
-                <div class="extended-details">
-                    <p>
-                        <a href="https://digital.cz/" target="_blank">Digital Solutions</a> is a smaller IT company specializing in information systems (B2C), with clients like <a href="https://www.mmreality.cz/" target="_blank">MMReality</a> (the biggest real estate agency in the Czech Republic).
-                    </p>
-                    <p>
-                        I spent most of my time working on MMReality's internal system, written in PHP and JavaScript, with a strong focus on code quality.
-                        It was my first real experience with advanced programming techniques like OOP, Clean Code, Agile, etc., and with document-based databases.
-                    </p>
-                </div>
-            </div>
-            <div class="job-subsection last">
-                <div class="job-company">eBRANA</div>
-                <div class="job-position">Junior Software Developer</div>
-                <div class="job-date">Jul 2012 - Mar 2013</div>
-                <div class="extended-details">
-                    <p>My very first professional experience began at <a href="https://ebrana.cz/" target="_blank">eBrana</a> immediately after graduating from the <a href="https://www.upce.cz/" target="_blank">University of Pardubice</a>.
-                    </p>
-                    <p>I started with PHP and vanilla JavaScript, creating and updating features on clients' e-shops to fit their needs.</p>
+                <div class="motto" aria-label="I love simple code">
+                    <span class="motto-quote">“</span>I <span class="heart" aria-hidden="true">❤</span> simple code<span class="motto-quote">”</span>
                 </div>
             </div>
         </div>
 
-    </div>
-    <div id="contact" class="contact-section">
+        <a class="scroll-hint" href="#about" aria-label="Scroll to About">
+            <span></span>
+        </a>
+    </section>
+
+    <section id="about" class="section">
         <div class="container">
-            <div class="subsection-title">Get in touch.</div>
-            <div class="section-title">Contact Me</div>
-            <div class="text">If you'd like to work with me, want more information, or just feel like a chat,
-                send me an email.
+            <div class="section-head reveal">
+                <p class="eyebrow">01 · About</p>
+                <h2 class="section-title">A simple code</h2>
             </div>
-            <div class="request-button-container"><a class="action-button"
-                                                     href="mailto:bc.josefjadrny@gmail.com">Email Me ▶</a></div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        I'm a full-stack engineer who cares about code that is easy to read, easy to change and boring to run in production.
+                        I've led teams through big migrations (PHP to Node.js &amp; React, on-premise to AWS), shipped SDKs used by
+                        over a million TV viewers, and today I work on one of the best-rated CRMs at Pipedrive.
+                    </p>
+                    <p>
+                        Lately I'm deep into AI-assisted development - I built and run <a href="https://opinio.live" target="_blank" rel="noopener">opinio.live</a>
+                        on my own, from the database to the Android app, with Claude as my pair programmer.
+                    </p>
+
+                    <ul class="stats" aria-label="Highlights">
+                        <li><strong class="years-total">14</strong><span>years of experience</span></li>
+                        <li><strong>6</strong><span>companies</span></li>
+                        <li><strong>21k+</strong><span>monthly npm downloads</span></li>
+                    </ul>
+                </div>
+
+                <div class="code-card reveal" role="img" aria-label="Info about Josef as a JavaScript object: Prague, Czechia; interests AI, TypeScript, Node.js, React, Clean Code, Agile, DevOps, AWS">
+                    <div class="code-card-bar" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                        <em>info.ts</em>
+                    </div>
+<pre id="typewriter" aria-hidden="true"><span class="k">const</span> info = {
+  name: <span class="s">'Josef Jadrny'</span>,
+  age: <span class="n" id="age">38</span>,
+  location: <span class="s">'Prague, Czechia'</span>,
+  motto: <span class="s">'I ❤ simple code'</span>,
+  experienceInYears: <span class="n" id="exp">14</span>,
+  interests: [
+    <span class="s">'Vibe Coding'</span>, <span class="s">'AI'</span>,
+    <span class="s">'TypeScript'</span>, <span class="s">'Node.js'</span>,
+    <span class="s">'React'</span>, <span class="s">'Clean Code'</span>,
+    <span class="s">'Agile'</span>, <span class="s">'DevOps'</span>, <span class="s">'AWS'</span>,
+  ],
+};</pre>
+                </div>
+            </div>
+
+            <div class="skills reveal">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <ul class="chips"><li>TypeScript</li><li>JavaScript</li><li>SQL</li><li>PHP</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <ul class="chips"><li>Node.js</li><li>Fastify</li><li>GraphQL / Apollo</li><li>PostgreSQL</li><li>Microservices</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <ul class="chips"><li>React</li><li>React Native</li><li>Vite</li><li>Tailwind</li><li>PWA</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Cloud &amp; DevOps</h3>
+                    <ul class="chips"><li>AWS</li><li>Kubernetes</li><li>Docker</li><li>GitHub Actions</li><li>Cloudflare</li><li>On-call</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>AI</h3>
+                    <ul class="chips"><li>Claude Code</li><li>AI-assisted development</li><li>LLM APIs</li></ul>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">02 · Experience</p>
+                <h2 class="section-title">Where I've worked</h2>
+            </div>
+
+            <ol class="timeline">
+                <li class="job reveal is-current">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Pipedrive <span class="badge">Current</span></h3>
+                            <p class="job-position">Senior Software Engineer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2021-05">May 2021</time> - Present</p>
+                    </div>
+                    <div class="job-body">
+                        <p><a href="https://www.pipedrive.com/" target="_blank" rel="noopener">Pipedrive</a> is one of the best user-rated CRM tools, with a focus on small and mid-size companies.
+                        As they use the <a href="https://medium.com/pipedrive-engineering/scaling-pipedrive-engineering-from-teams-to-tribes-8f14fd92df8c" target="_blank" rel="noopener">tribes &amp; missions framework</a>, I joined Prague's tribe (instead of a team).</p>
+                        <p>As a full-stack JavaScript software developer, I work with Node.js and TypeScript on the backend and with React on the frontend.
+                        I am also part of the on-call team, which takes care of microservices running in production.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>TypeScript</li><li>Node.js</li><li>React</li><li>Kubernetes</li><li>Microservices</li><li>Claude</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Nangu.TV</h3>
+                            <p class="job-position">GraphQL Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2020-02">Feb 2020</time> - <time datetime="2021-05">May 2021</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p><a href="https://nangu.tv/" target="_blank" rel="noopener">Nangu.tv</a>'s IPTV/OTT solution has more than 1 million users in Central Europe - it is used by major operators like <a href="https://www.o2.cz/" target="_blank" rel="noopener">O2</a> and <a href="https://www.orange.com/" target="_blank" rel="noopener">Orange</a>.</p>
+                        <p>As part of the GraphQL team, I worked with Node.js and Apollo, and I was responsible for developing and maintaining a unified JavaScript SDK written in React/React Native for our clients' frontends.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>GraphQL</li><li>Apollo</li><li>Node.js</li><li>React Native</li><li>SDK</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Economia</h3>
+                            <p class="job-position">Head of Development · Software Developer Lead</p>
+                        </div>
+                        <p class="job-date"><time datetime="2015-10">Oct 2015</time> - <time datetime="2020-02">Feb 2020</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>My first job in Prague was at <a href="https://www.economia.cz/en/" target="_blank" rel="noopener">Economia</a>, one of the biggest Czech media houses, with brands like <a href="https://www.aktualne.cz/" target="_blank" rel="noopener">aktualne.cz</a>, <a href="https://www.dvtv.cz/" target="_blank" rel="noopener">DVTV</a>, <a href="https://hn.cz/" target="_blank" rel="noopener">Hospodářské noviny</a>, and <a href="https://www.respekt.cz/" target="_blank" rel="noopener">RESPEKT</a>.</p>
+                        <p>We decided to replace PHP with Node.js &amp; React, move from on-premise to the cloud (AWS), and adopt DevOps. As a team leader, I drove those changes while coding and mentoring others.
+                        It took almost a year to accomplish at <a href="https://www.centrum.cz/" target="_blank" rel="noopener">centrum.cz</a>, and I gave a <a href="https://youtu.be/GbPSEhqmjd4?t=15062" target="_blank" rel="noopener">talk</a> about it at <a href="https://reactiveconf.com/" target="_blank" rel="noopener">ReactiveConf</a> 2019.</p>
+                        <p>Finally, after a few years, I moved into the Head of Development role to help roll out these changes company-wide.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>Leadership</li><li>Node.js</li><li>React</li><li>AWS</li><li>DevOps</li><li>Mentoring</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">AtNat</h3>
+                            <p class="job-position">Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2015-03">Mar 2015</time> - <time datetime="2015-09">Sep 2015</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>AtNat was an ambitious startup. Back then, it was challenging to create an isomorphic JavaScript web application. It was my first encounter with Node.js and Angular.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>Node.js</li><li>Angular</li><li>Isomorphic JS</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Digital Solutions</h3>
+                            <p class="job-position">Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2013-04">Apr 2013</time> - <time datetime="2015-03">Mar 2015</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p><a href="https://digital.cz/" target="_blank" rel="noopener">Digital Solutions</a> is a smaller IT company specializing in information systems (B2C), with clients like <a href="https://www.mmreality.cz/" target="_blank" rel="noopener">MMReality</a> (the biggest real estate agency in the Czech Republic).</p>
+                        <p>I spent most of my time working on MMReality's internal system, written in PHP and JavaScript, with a strong focus on code quality.
+                        It was my first real experience with advanced programming techniques like OOP, Clean Code, Agile, etc., and with document-based databases.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>PHP</li><li>JavaScript</li><li>OOP</li><li>Agile</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">eBRANA</h3>
+                            <p class="job-position">Junior Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2012-07">Jul 2012</time> - <time datetime="2013-03">Mar 2013</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>My very first professional experience began at <a href="https://ebrana.cz/" target="_blank" rel="noopener">eBrana</a> immediately after graduating from the <a href="https://www.upce.cz/" target="_blank" rel="noopener">University of Pardubice</a>.
+                        I started with PHP and vanilla JavaScript, creating and updating features on clients' e-shops to fit their needs.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>PHP</li><li>JavaScript</li><li>E-commerce</li></ul>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">03 · Projects</p>
+                <h2 class="section-title">Things I've built</h2>
+            </div>
+
+            <div class="projects">
+                <article class="project reveal">
+                    <div class="project-top">
+                        <h3>opinio.live</h3>
+                        <span class="project-tag">Solo product</span>
+                    </div>
+                    <p>A global social voting platform - browse and vote on statements, events and public figures by country on an interactive world map. Built and run alone, from the database to the Android app.</p>
+                    <ul class="chips chips-small"><li>React</li><li>Fastify</li><li>PostgreSQL</li><li>AWS ECS</li><li>Cloudflare Workers</li><li>Android TWA</li></ul>
+                    <div class="project-links">
+                        <a href="https://opinio.live" target="_blank" rel="noopener">Visit site <span aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/josefjadrny/opinio-fe" target="_blank" rel="noopener">Frontend source <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <h3>js-chess-engine</h3>
+                        <span class="project-tag">Open source</span>
+                    </div>
+                    <p>A complete chess engine in TypeScript with zero dependencies, for Node.js and browsers. Configurable AI with five difficulty levels, stateful and stateless APIs, JSON and FEN support.</p>
+                    <ul class="chips chips-small"><li>TypeScript</li><li>Algorithms</li><li>npm</li><li>168 ★</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/josefjadrny/js-chess-engine" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="https://chess.josefjadrny.info/" target="_blank" rel="noopener">Play (server) <span aria-hidden="true">↗</span></a>
+                        <a href="https://chess-fe.josefjadrny.info/" target="_blank" rel="noopener">Play (in browser) <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <h3>js-idb</h3>
+                        <span class="project-tag">Open source</span>
+                    </div>
+                    <p>A lightweight JSON database for TypeScript with schema validation, indexed search and sorting. Zero dependencies, in-memory or file-persisted, for Node.js and the browser.</p>
+                    <ul class="chips chips-small"><li>TypeScript</li><li>Databases</li><li>npm</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/josefjadrny/js-idb" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-card reveal">
+                <p class="eyebrow">04 · Contact</p>
+                <h2 class="contact-title">Let's build something <span class="gradient-text">simple</span>.</h2>
+                <p class="contact-lead">If you'd like to work with me, want more information, or just feel like a chat, send me an email.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="mailto:bc.josefjadrny@gmail.com">
+                        Email me
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a class="btn btn-ghost" href="https://www.linkedin.com/in/josefjadrny" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="btn btn-ghost" href="https://github.com/josefjadrny" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>(c) <span id="year">2026</span> Josef Jadrny</p>
+        <p class="footer-note">Made with simple code.</p>
     </div>
-</div>
+</footer>
 </body>
 </html>
