@@ -13,6 +13,13 @@
     });
     document.getElementById('year').textContent = new Date().getFullYear();
 
+    // Hero video plays only when motion is welcome; otherwise the poster photo stays
+    var photo = document.getElementById('photo');
+    if (!reduceMotion) {
+        var playing = photo.play();
+        if (playing) playing.catch(function () {});
+    }
+
     // Nav: solid background once scrolled, highlight the section in view
     var nav = document.getElementById('nav');
     function onScroll() {
