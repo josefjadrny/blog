@@ -28,6 +28,8 @@ Josef sometimes edits `src/index.html` directly on GitHub. Pull before starting,
 
 ### Czech text
 
+- Translate the meaning, not the English sentence structure. Write it the way a Czech developer would say it
+  himself; a word-for-word version reads like a machine translation (Josef rejected the first, too literal draft).
 - Natural Czech, formal "vy" towards the reader (`Napište mi`), first person for Josef.
 - Keep job titles (`Senior Software Engineer`, `Head of Development`), tech names and the skill/tech chips in English, as Czech IT does.
 - Months are lowercase (`květen 2021 - současnost`).
