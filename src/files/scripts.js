@@ -76,7 +76,7 @@
     }
 
     // Reveal on scroll, staggered per group
-    document.querySelectorAll('.timeline, .projects, .hero-text').forEach(function (group) {
+    document.querySelectorAll('.timeline, .quotes, .projects, .hero-text').forEach(function (group) {
         group.querySelectorAll('.reveal').forEach(function (el, i) {
             el.style.setProperty('--delay', Math.min(i * 0.08, 0.4) + 's');
         });

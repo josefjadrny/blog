@@ -786,6 +786,65 @@ ul, ol {
     text-decoration-color: var(--accent);
 }
 
+/* ---------- Feedback ---------- */
+
+.section-lead {
+    max-width: 40rem;
+    margin-top: 1rem;
+    color: var(--muted);
+}
+
+.quotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(20rem, 100%), 1fr));
+    gap: 1.25rem;
+}
+
+.quote {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 3.2rem 1.6rem 1.4rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+}
+
+.quote::before {
+    content: '\201C';
+    position: absolute;
+    top: 0.5rem;
+    left: 1.3rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.quote blockquote {
+    margin: 0;
+    flex-grow: 1;
+}
+
+.quote p {
+    color: var(--text);
+    line-height: 1.65;
+}
+
+.quote figcaption {
+    margin-top: 1.25rem;
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--faint);
+}
+
 /* ---------- Projects ---------- */
 
 .projects {
