@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<!-- Czech version. English lives in ../index.html - keep both in sync (same markup, translated text). -->
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josef Jadrny · Software Engineer</title>
+    <meta name="description" content="Josef Jadrny - AI-first senior full-stack vývojář z Prahy. 14 let s TypeScriptem, Node.js, Reactem a AWS, dnes vyvíjím s AI agenty. Autor js-chess-engine a opinio.live.">
+    <link rel="canonical" href="https://www.josefjadrny.info/cs/">
+    <link rel="alternate" hreflang="en" href="https://www.josefjadrny.info/">
+    <link rel="alternate" hreflang="cs" href="https://www.josefjadrny.info/cs/">
+    <link rel="alternate" hreflang="x-default" href="https://www.josefjadrny.info/">
+    <meta name="theme-color" content="#0b0d12">
+
+    <meta property="og:type" content="profile">
+    <meta property="og:locale" content="cs_CZ">
+    <meta property="og:locale:alternate" content="en_US">
+    <meta property="og:url" content="https://www.josefjadrny.info/cs/">
+    <meta property="og:title" content="Josef Jadrny · Software Engineer">
+    <meta property="og:description" content="AI-first senior full-stack vývojář z Prahy. TypeScript, Node.js, React, AWS a AI agenti - a láska k jednoduchému kódu.">
+    <meta property="og:image" content="https://www.josefjadrny.info/files/me.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Josef Jadrny · Software Engineer">
+
+    <link rel="icon" href="../files/favicon.svg" type="image/svg+xml">
+    <link rel="icon" href="../files/favicon.ico" sizes="any">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../files/styles.css?v=12">
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="../files/scripts.js?v=13" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Josef Jadrny",
+        "jobTitle": "Senior Software Engineer",
+        "url": "https://www.josefjadrny.info/",
+        "image": "https://www.josefjadrny.info/files/me.jpg",
+        "address": { "@type": "PostalAddress", "addressLocality": "Prague", "addressCountry": "CZ" },
+        "alumniOf": { "@type": "CollegeOrUniversity", "name": "University of Pardubice" },
+        "knowsAbout": ["TypeScript", "JavaScript", "Node.js", "React", "AWS", "Kubernetes", "GraphQL", "PostgreSQL"],
+        "sameAs": ["https://www.linkedin.com/in/josefjadrny", "https://github.com/josefjadrny"]
+    }
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8VY8VNYR99"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-8VY8VNYR99');
+    </script>
+</head>
+
+<body>
+<a class="skip-link" href="#about">Přeskočit na obsah</a>
+
+<header class="nav" id="nav">
+    <div class="container nav-inner">
+        <a class="nav-logo" href="#home" aria-label="Josef Jadrny - zpět nahoru">JJ<span>.</span></a>
+        <nav aria-label="Hlavní">
+            <ul class="nav-links">
+                <li><a href="#about">O mně</a></li>
+                <li><a href="#experience">Zkušenosti</a></li>
+                <li><a href="#feedback">Reference</a></li>
+                <li><a href="#projects">Projekty</a></li>
+            </ul>
+        </nav>
+        <div class="nav-actions">
+            <a class="lang-switch" href="/" hreflang="en" lang="en" aria-label="English version">EN</a>
+            <a class="btn btn-small" href="#contact">Kontakt</a>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-bg" aria-hidden="true">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="kicker reveal">Ahoj, jsem</p>
+                <h1 class="hero-name reveal">Josef Jadrny</h1>
+                <p class="hero-role reveal"><span class="nw">Senior Software Engineer</span><span class="nw">Full-stack · TypeScript · AI-first</span></p>
+                <p class="hero-lead reveal">
+                    Stavím webové produkty od začátku do konce a s AI agenty - Node.js a TypeScript na backendu, React na frontendu
+                    a pod tím infrastrukturu na AWS. Mám za sebou <span class="years-total">14</span> let praxe a žiju v Praze.
+                </p>
+                <div class="hero-actions reveal">
+                    <a class="btn btn-primary" href="mailto:bc.josefjadrny@gmail.com">
+                        Napište mi
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a class="btn btn-ghost" href="https://www.linkedin.com/in/josefjadrny" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.83-2.06 3.77-2.06 4.03 0 4.77 2.65 4.77 6.1V21h-4v-5.1c0-1.22-.02-2.78-1.7-2.78-1.7 0-1.96 1.33-1.96 2.7V21h-4z"/></svg>
+                        LinkedIn
+                    </a>
+                    <a class="btn btn-ghost" href="https://github.com/josefjadrny" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="fill"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.4c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.25 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal">
+                <div class="photo-ring">
+                    <video class="photo" id="photo" src="../files/me.mp4" poster="../files/me.jpg" muted loop playsinline preload="auto" width="200" height="200" aria-label="Josef Jadrny"></video>
+                </div>
+                <div class="motto" aria-label="Miluju jednoduchý kód">
+                    <span class="motto-quote">“</span>I <span class="heart" aria-hidden="true">❤</span> simple code<span class="motto-quote">”</span>
+                </div>
+            </div>
+        </div>
+
+        <a class="scroll-hint" href="#about" aria-label="Přejít na sekci O mně">
+            <span></span>
+        </a>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">01 · O mně</p>
+                <h2 class="section-title">Jednoduchý kód</h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>
+                        Jsem full-stack vývojář a záleží mi na kódu, který se snadno čte, snadno mění a v produkci je nudný.
+                        Vedl jsem týmy velkými migracemi (z PHP na Node.js &amp; React, z vlastních serverů do AWS), dodával SDK pro
+                        víc než milion televizních diváků a dnes v Pipedrive pracuji na jednom z nejlépe hodnocených CRM.
+                    </p>
+                    <p>
+                        Dnes pracuji s AI - v Pipedrive i na vlastních projektech níže. <a href="https://opinio.live" target="_blank" rel="noopener">opinio.live</a>
+                        stavím a provozuji já s AI agenty - oni dělají práci, já mám vše pod kontrolou - od databáze po aplikaci pro Android, včetně zpráv psaných AI, překladů a hodnocení obsahu v produkci.
+                    </p>
+
+                    <ul class="stats" aria-label="Ve zkratce">
+                        <li><strong class="years-total">14</strong><span>let zkušeností</span></li>
+                        <li><strong>AI-first</strong><span>od roku 2025</span></li>
+                        <li><strong>21k+</strong><span>stažení z npm měsíčně</span></li>
+                    </ul>
+                </div>
+
+                <div class="code-card reveal" role="img" aria-label="Informace o Josefovi jako JavaScriptový objekt: Praha, Česko; zájmy AI, TypeScript, Node.js, React, Clean Code, Agile, DevOps, AWS">
+                    <div class="code-card-bar" aria-hidden="true">
+                        <span></span><span></span><span></span>
+                        <em>info.ts</em>
+                    </div>
+<pre id="typewriter" aria-hidden="true"><span class="k">const</span> info = {
+  name: <span class="s">'Josef Jadrny'</span>,
+  age: <span class="n" id="age">38</span>,
+  location: <span class="s">'Prague, Czechia'</span>,
+  motto: <span class="s">'I ❤ simple code'</span>,
+  experienceInYears: <span class="n" id="exp">14</span>,
+  interests: [
+    <span class="s">'Vibe Coding'</span>, <span class="s">'AI'</span>,
+    <span class="s">'TypeScript'</span>, <span class="s">'Node.js'</span>,
+    <span class="s">'React'</span>, <span class="s">'Clean Code'</span>,
+    <span class="s">'Agile'</span>, <span class="s">'DevOps'</span>, <span class="s">'AWS'</span>,
+  ],
+};</pre>
+                </div>
+            </div>
+
+            <div class="skills reveal">
+                <div class="skill-group">
+                    <h3>Jazyky</h3>
+                    <ul class="chips"><li>TypeScript</li><li>JavaScript</li><li>SQL</li><li>PHP</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Backend</h3>
+                    <ul class="chips"><li>Node.js</li><li>Fastify</li><li>GraphQL / Apollo</li><li>PostgreSQL</li><li>Microservices</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Frontend</h3>
+                    <ul class="chips"><li>React</li><li>React Native</li><li>Vite</li><li>Tailwind</li><li>PWA</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>Cloud &amp; DevOps</h3>
+                    <ul class="chips"><li>AWS</li><li>Kubernetes</li><li>Docker</li><li>GitHub Actions</li><li>Cloudflare</li><li>On-call</li></ul>
+                </div>
+                <div class="skill-group">
+                    <h3>AI</h3>
+                    <ul class="chips"><li>Claude Code</li><li>AI agents</li><li>Agentic workflows</li><li>MCP</li><li>LLM APIs</li><li>AWS Bedrock</li><li>Prompt engineering</li></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">02 · Zkušenosti</p>
+                <h2 class="section-title">Kde jsem pracoval</h2>
+            </div>
+
+            <ol class="timeline">
+                <li class="job reveal is-current">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Pipedrive <span class="badge">Aktuálně</span></h3>
+                            <p class="job-position">Senior Software Engineer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2021-05">květen 2021</time> - současnost</p>
+                    </div>
+                    <div class="job-body">
+                        <p><a href="https://www.pipedrive.com/" target="_blank" rel="noopener">Pipedrive</a> je jeden z uživateli nejlépe hodnocených CRM nástrojů, zaměřený na malé a střední firmy.
+                        Protože používá <a href="https://medium.com/pipedrive-engineering/scaling-pipedrive-engineering-from-teams-to-tribes-8f14fd92df8c" target="_blank" rel="noopener">model tribes &amp; missions</a>, nastoupil jsem do pražského tribu (místo do týmu).</p>
+                        <p>Jako full-stack JavaScript vývojář pracuji s Node.js a TypeScriptem na backendu a s Reactem na frontendu.
+                        Jsem také součástí on-call týmu, který se stará o mikroslužby běžící v produkci.</p>
+                        <p>Od roku 2025 pracuji AI-first a patřím k nejaktivnějším uživatelům AI ve svém tribu. Většinu mého kódu píší, testují a reviewují AI agenti - já je řídím a mám pod kontrolou, co jde do produkce.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>TypeScript</li><li>Node.js</li><li>React</li><li>Kubernetes</li><li>Microservices</li><li>Claude Code</li><li>AI agents</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Nangu.TV</h3>
+                            <p class="job-position">GraphQL Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2020-02">únor 2020</time> - <time datetime="2021-05">květen 2021</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>IPTV/OTT řešení <a href="https://nangu.tv/" target="_blank" rel="noopener">Nangu.tv</a> má víc než milion uživatelů ve střední Evropě - používají ho velcí operátoři jako <a href="https://www.o2.cz/" target="_blank" rel="noopener">O2</a> a <a href="https://www.orange.com/" target="_blank" rel="noopener">Orange</a>.</p>
+                        <p>V GraphQL týmu jsem pracoval s Node.js a Apollem a měl jsem na starosti vývoj a údržbu jednotného JavaScriptového SDK v React/React Native pro frontendy našich klientů.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>GraphQL</li><li>Apollo</li><li>Node.js</li><li>React Native</li><li>SDK</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Economia</h3>
+                            <p class="job-position">Head of Development · Software Developer Lead</p>
+                        </div>
+                        <p class="job-date"><time datetime="2015-10">říjen 2015</time> - <time datetime="2020-02">únor 2020</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>Moje první práce v Praze byla v <a href="https://www.economia.cz/" target="_blank" rel="noopener">Economii</a>, jednom z největších českých mediálních domů se značkami jako <a href="https://www.aktualne.cz/" target="_blank" rel="noopener">aktualne.cz</a>, <a href="https://www.dvtv.cz/" target="_blank" rel="noopener">DVTV</a>, <a href="https://hn.cz/" target="_blank" rel="noopener">Hospodářské noviny</a> a <a href="https://www.respekt.cz/" target="_blank" rel="noopener">RESPEKT</a>.</p>
+                        <p>Rozhodli jsme se přejít z PHP na Node.js &amp; React, z vlastních serverů do cloudu (AWS) a zavést DevOps. Jako vedoucí týmu jsem tyto změny řídil a přitom programoval a mentoroval ostatní.
+                        Na <a href="https://www.centrum.cz/" target="_blank" rel="noopener">centrum.cz</a> to trvalo skoro rok a na <a href="https://reactiveconf.com/" target="_blank" rel="noopener">ReactiveConf</a> 2019 jsem o tom měl <a href="https://youtu.be/GbPSEhqmjd4?t=15062" target="_blank" rel="noopener">přednášku</a>.</p>
+                        <p>Po několika letech jsem přešel do role Head of Development, abych tyto změny pomohl zavést v celé firmě.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>Leadership</li><li>Node.js</li><li>React</li><li>AWS</li><li>DevOps</li><li>Mentoring</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">AtNat</h3>
+                            <p class="job-position">Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2015-03">březen 2015</time> - <time datetime="2015-09">září 2015</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>AtNat byl ambiciózní startup. Postavit tehdy izomorfní JavaScriptovou webovou aplikaci byla výzva. Bylo to moje první setkání s Node.js a Angularem.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>Node.js</li><li>Angular</li><li>Isomorphic JS</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">Digital Solutions</h3>
+                            <p class="job-position">Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2013-04">duben 2013</time> - <time datetime="2015-03">březen 2015</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p><a href="https://digital.cz/" target="_blank" rel="noopener">Digital Solutions</a> je menší IT firma specializovaná na informační systémy (B2C), s klienty jako <a href="https://www.mmreality.cz/" target="_blank" rel="noopener">MMReality</a> (největší realitní kancelář v České republice).</p>
+                        <p>Většinu času jsem pracoval na interním systému MMReality v PHP a JavaScriptu s velkým důrazem na kvalitu kódu.
+                        Byla to moje první skutečná zkušenost s pokročilými technikami jako OOP, Clean Code, Agile a dalšími a s dokumentovými databázemi.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>PHP</li><li>JavaScript</li><li>OOP</li><li>Agile</li></ul>
+                </li>
+
+                <li class="job reveal">
+                    <div class="job-head">
+                        <div>
+                            <h3 class="job-company">eBRANA</h3>
+                            <p class="job-position">Junior Software Developer</p>
+                        </div>
+                        <p class="job-date"><time datetime="2012-07">červenec 2012</time> - <time datetime="2013-03">březen 2013</time></p>
+                    </div>
+                    <div class="job-body">
+                        <p>Moje úplně první profesní zkušenost začala ve firmě <a href="https://ebrana.cz/" target="_blank" rel="noopener">eBrana</a> hned po absolvování <a href="https://www.upce.cz/" target="_blank" rel="noopener">Univerzity Pardubice</a>.
+                        Začínal jsem s PHP a čistým JavaScriptem a vytvářel a upravoval funkce e-shopů klientů podle jejich potřeb.</p>
+                    </div>
+                    <ul class="chips chips-small"><li>PHP</li><li>JavaScript</li><li>E-commerce</li></ul>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="feedback" class="section">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">03 · Reference</p>
+                <h2 class="section-title">Co o mně říkají kolegové</h2>
+                <p class="section-lead">Každých pár měsíců probíhá v Pipedrive 360° hodnocení, ve kterém mi lidé, se kterými pracuji, dávají zpětnou vazbu.
+                Je anonymní, takže tu nejsou jména - jen pár jejich slov, mírně zkrácených a v původní angličtině.</p>
+            </div>
+
+            <div class="quotes">
+                <figure class="quote reveal">
+                    <blockquote lang="en"><p>Josef is a highly talented backend engineer who has further strengthened his skills through his work with AI. He consistently takes on complex and challenging tasks and delivers them successfully.</p></blockquote>
+                    <figcaption>Kolega · 360° hodnocení</figcaption>
+                </figure>
+                <figure class="quote reveal">
+                    <blockquote lang="en"><p>You were the main driver behind the WhatsApp service observability and overall stability. This was no easy feat. [&hellip;] It's greatly thanks to your contribution that we have had a smooth GA rollout.</p></blockquote>
+                    <figcaption>Kolega · 360° hodnocení</figcaption>
+                </figure>
+                <figure class="quote reveal">
+                    <blockquote lang="en"><p>What stood out was your incredible full stack technical skills and your no excuses attitude to work on the high complexity/high risk tasks. You have been the key person in the team to ensure the feature stability and quality.</p></blockquote>
+                    <figcaption>Kolega · 360° hodnocení</figcaption>
+                </figure>
+                <figure class="quote reveal">
+                    <blockquote lang="en"><p>The Node 22+ upgrade was a massive [&hellip;] initiative and you drove it almost entirely on your own - planning it systematically and seeing it through to completion.</p></blockquote>
+                    <figcaption>Kolega · 360° hodnocení</figcaption>
+                </figure>
+                <figure class="quote reveal">
+                    <blockquote lang="en"><p>You're always thinking two steps ahead when making decisions or doing reviews, which saves us from a lot of future issues. It really shows how experienced you are!</p></blockquote>
+                    <figcaption>Kolega · 360° hodnocení</figcaption>
+                </figure>
+                <figure class="quote reveal">
+                    <blockquote lang="en"><p>That's a great example of not just doing the work, but making the work better for everyone who comes after.</p></blockquote>
+                    <figcaption>Kolega · 360° hodnocení</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="eyebrow">04 · Projekty</p>
+                <h2 class="section-title">Co jsem postavil</h2>
+            </div>
+
+            <div class="projects">
+                <article class="project reveal">
+                    <div class="project-top">
+                        <div class="project-title">
+                            <img class="project-logo" src="../files/projects/opinio.png" alt="" width="48" height="48">
+                            <div>
+                                <h3>opinio.live</h3>
+                                <span class="project-tag">Vlastní produkt</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Globální sociální hlasovací platforma - procházejte výroky, události a veřejné osobnosti a hlasujte o nich podle zemí na interaktivní mapě světa. Postavená a provozovaná sólo, od databáze po aplikaci pro Android.</p>
+                    <ul class="chips chips-small"><li>React</li><li>Fastify</li><li>PostgreSQL</li><li>AWS ECS</li><li>Cloudflare Workers</li><li>Android TWA</li></ul>
+                    <div class="project-links">
+                        <a href="https://opinio.live" target="_blank" rel="noopener">Navštívit web <span aria-hidden="true">↗</span></a>
+                        <a href="https://github.com/josefjadrny/opinio-fe" target="_blank" rel="noopener">Zdrojový kód frontendu <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <div class="project-title">
+                            <img class="project-logo" src="../files/projects/chess.svg" alt="" width="48" height="48">
+                            <div>
+                                <h3>js-chess-engine</h3>
+                                <span class="project-tag">Open source</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Kompletní šachový engine v TypeScriptu bez závislostí, pro Node.js i prohlížeče. Nastavitelná AI s pěti úrovněmi obtížnosti, stavové i bezstavové API, podpora JSON a FEN.</p>
+                    <ul class="chips chips-small"><li>TypeScript</li><li>Algorithms</li><li>npm</li><li>168 ★</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/josefjadrny/js-chess-engine" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+                        <a href="http://chess.josefjadrny.info/" target="_blank" rel="noopener">Hrát (server) <span aria-hidden="true">↗</span></a>
+                        <a href="http://chess-fe.josefjadrny.info/" target="_blank" rel="noopener">Hrát (v prohlížeči) <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+
+                <article class="project reveal">
+                    <div class="project-top">
+                        <div class="project-title">
+                            <img class="project-logo" src="../files/projects/js-idb.svg" alt="" width="48" height="48">
+                            <div>
+                                <h3>js-idb</h3>
+                                <span class="project-tag">Open source</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Lehká JSON databáze pro TypeScript s validací schématu, indexovaným vyhledáváním a řazením. Bez závislostí, v paměti nebo uložená do souboru, pro Node.js i prohlížeč.</p>
+                    <ul class="chips chips-small"><li>TypeScript</li><li>Databases</li><li>npm</li></ul>
+                    <div class="project-links">
+                        <a href="https://github.com/josefjadrny/js-idb" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-card reveal">
+                <p class="eyebrow">05 · Kontakt</p>
+                <h2 class="contact-title">Pojďme postavit něco <span class="gradient-text">skvělého</span>.</h2>
+                <p class="contact-lead">Pokud se mnou chcete spolupracovat, potřebujete víc informací, nebo si jen chcete popovídat, napište mi e-mail.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="mailto:bc.josefjadrny@gmail.com">
+                        Napište mi
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                    </a>
+                    <a class="btn btn-ghost" href="https://www.linkedin.com/in/josefjadrny" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="btn btn-ghost" href="https://github.com/josefjadrny" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-inner">
+        <p>(c) <span id="year">2026</span> Josef Jadrny</p>
+        <p class="footer-note">Postaveno na jednoduchém kódu.</p>
+    </div>
+</footer>
+</body>
+</html>

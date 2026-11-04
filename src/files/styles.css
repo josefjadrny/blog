@@ -244,6 +244,29 @@ ul, ol {
     background: rgba(255, 255, 255, 0.06);
 }
 
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-switch {
+    padding: 0.35rem 0.6rem;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    text-decoration: none;
+    border-radius: 999px;
+    transition: color 0.25s, background 0.25s;
+}
+
+.lang-switch:hover {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.06);
+}
+
 /* ---------- Hero ---------- */
 
 .hero {

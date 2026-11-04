@@ -30,6 +30,14 @@
 
     var navLinks = document.querySelectorAll('.nav-links a');
 
+    // Language switch: remember the choice (it stops the browser-language redirect) and stay on the same section
+    document.querySelectorAll('.lang-switch').forEach(function (link) {
+        link.addEventListener('click', function () {
+            try { localStorage.setItem('lang', link.getAttribute('hreflang')); } catch (e) {}
+            link.setAttribute('href', link.getAttribute('href').split('#')[0] + location.hash);
+        });
+    });
+
     // Typewriter for the info.ts card: types the text nodes in order and keeps the syntax colours
     var typer = document.getElementById('typewriter');
 
