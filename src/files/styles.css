@@ -939,6 +939,11 @@ ul, ol {
     border: 1px solid var(--border);
 }
 
+.project-logo.is-round {
+    border-radius: 50%;
+    border: 1px solid var(--border);
+}
+
 .project:hover .project-logo {
     transform: rotate(-6deg) scale(1.06);
 }
