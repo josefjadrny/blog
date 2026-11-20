@@ -450,7 +450,10 @@ ul, ol {
 
 .heart {
     display: inline-block;
-    color: var(--accent);
+    width: 0.85em;
+    height: 0.85em;
+    vertical-align: -0.1em;
+    fill: var(--accent);
     animation: beat 1.6s ease-in-out infinite;
 }
 
